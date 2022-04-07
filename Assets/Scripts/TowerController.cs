@@ -7,6 +7,8 @@ public class TowerController : MonoBehaviour{
     public Transform bulletSpawn;
     public GameObject cannon;
     public GameObject rangeAttackVisual;
+    public GameObject bulletReference;
+    public float fireRate;
 
     // PROPIEDADES
     
