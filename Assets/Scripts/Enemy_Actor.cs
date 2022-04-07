@@ -6,6 +6,10 @@ public class Enemy_Actor : MonoBehaviour
 {
     float speed=2.5f;
     public Transform target;
+    public Transform damagePoint;
+
+    public int life; 
+
     void Start()
     {
         transform.LookAt(new Vector3(target.position.x,transform.position.y,target.position.z));
@@ -15,7 +19,13 @@ public class Enemy_Actor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (life>0)
+        {
         transform.Translate(new Vector3(0,0,speed*Time.deltaTime));
+            
+        }else{
+            Destroy(this.gameObject);
+        }
     }
 
     void OnTriggerEnter(Collider other) {
@@ -23,6 +33,8 @@ public class Enemy_Actor : MonoBehaviour
             int rndPoint= Random.Range(0,other.gameObject.GetComponent<Waypoint>().nextPoint.Length);
             target=other.gameObject.GetComponent<Waypoint>().nextPoint[rndPoint];
             transform.LookAt(new Vector3(target.position.x,transform.position.y,target.position.z));
+        }else if (other.tag=="WayPointEnd"){
+            Destroy(gameObject);
         }
     }
 }

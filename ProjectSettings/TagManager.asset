@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - WayPoint
   - Bullet
+  - WayPointEnd
+  - Impact Area
   layers:
   - Default
   - TransparentFX

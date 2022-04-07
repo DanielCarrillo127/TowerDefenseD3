@@ -15,6 +15,15 @@ public class Bullet_Controller : MonoBehaviour
     {
         transform.Translate(0,0,speed*Time.deltaTime);
     }
+
+    private void OnCollisionEnter(Collision other) {
+        switch(other.collider.tag){
+            case "Impact Area":
+                other.collider.transform.root.gameObject.GetComponent<Enemy_Actor>().life-=5;
+            break;
+        }
+        Destroy(this.gameObject);
+    }
         
     
 }
