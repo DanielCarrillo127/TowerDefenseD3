@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy_Actor : MonoBehaviour
 {
-    float speed=5.0f;
+    float speed=2.5f;
     public Transform target;
     void Start()
     {
