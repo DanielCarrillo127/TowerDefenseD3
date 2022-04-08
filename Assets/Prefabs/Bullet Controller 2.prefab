@@ -91,8 +91,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7836476944484477955}
-  - component: {fileID: 7836476944484477953}
   - component: {fileID: 1876811530917502476}
+  - component: {fileID: 7836476944484477953}
   - component: {fileID: 7836476944484477954}
   m_Layer: 0
   m_Name: Bullet Controller 2
@@ -116,19 +116,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &7836476944484477953
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7836476944484477957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.06345131
-  m_Center: {x: 0, y: 0, z: 0.00345131}
 --- !u!114 &1876811530917502476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +129,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+--- !u!135 &7836476944484477953
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7836476944484477957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.06345131
+  m_Center: {x: 0, y: 0, z: 0.00345131}
 --- !u!54 &7836476944484477954
 Rigidbody:
   m_ObjectHideFlags: 0
