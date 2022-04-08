@@ -19,10 +19,12 @@ public class Bullet_Controller : MonoBehaviour
     private void OnCollisionEnter(Collision other) {
         switch(other.collider.tag){
             case "Impact Area":
-                other.collider.transform.root.gameObject.GetComponent<Enemy_Actor>().life-=5;
+                // other.collider.transform.root.gameObject.GetComponent<Enemy_Actor>().life-=5;
+                Destroy(this.gameObject);
+                Debug.Log("impacto");
             break;
         }
-        Destroy(this.gameObject);
+        
     }
         
     

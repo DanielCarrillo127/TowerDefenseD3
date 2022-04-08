@@ -35,6 +35,8 @@ public class Enemy_Actor : MonoBehaviour
             transform.LookAt(new Vector3(target.position.x,transform.position.y,target.position.z));
         }else if (other.tag=="WayPointEnd"){
             Destroy(gameObject);
+        }else if (other.tag=="Bullet"){
+            life-=5;
         }
     }
 }
