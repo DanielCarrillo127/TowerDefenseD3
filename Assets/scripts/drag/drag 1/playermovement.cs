@@ -6,7 +6,7 @@ using UnityEngine;
 public class playermovement : MonoBehaviour
 {
 
-    private Vector3 Velocity;
+   /*  private Vector3 Velocity;
     private Vector3 PlayerMovementInput;
     private Vector2 PlayerMouseInput;
     private float xRot;
@@ -54,6 +54,6 @@ public class playermovement : MonoBehaviour
         transform.Rotate(0f,PlayerMouseInput.x*Sensitivity,0f);
         PlayerCamara.transform.localRotation = Quaternion.Euler(xRot,0f,0f);
     }
-
+ */
 
 }
