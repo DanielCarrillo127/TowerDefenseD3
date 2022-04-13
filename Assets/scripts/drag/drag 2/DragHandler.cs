@@ -102,7 +102,8 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         for (int i = 0; i < hits.Length; i++)
         {
-            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad"))
+            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad")||
+            hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
             {
                 return i;
             }
