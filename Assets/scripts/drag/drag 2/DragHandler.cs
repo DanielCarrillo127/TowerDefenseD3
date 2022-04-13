@@ -6,7 +6,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 {
     public GameObject prefab;
     GameObject prefabInstance;
-
+    public GameObject dinero;
 
     // Use this for initialization
     void Start()
@@ -44,11 +44,30 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
+        /*  if (dinero.GetComponent<PlayerController>().money >= 5)
+         {
+             Debug.Log("Beginning drag");
+             dinero.GetComponent<PlayerController>().substractMoney(5);
+         }
+         else
+         {
+
+         } */
         Debug.Log("Beginning drag");
+        dinero.GetComponent<PlayerController>().substractMoney(5);
+
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        /* if (dinero.GetComponent<PlayerController>().money >= 5)
+        {
+
+        }
+        else
+        {
+
+        } */
         Debug.Log("Dragging");
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -59,7 +78,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (terrainCollderQuadIndex != -1)
             {
                 prefabInstance.transform.position = hits[terrainCollderQuadIndex].point;
-				prefabInstance.SetActive(true);
+                prefabInstance.SetActive(true);
             }
             else
             {
@@ -102,7 +121,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         for (int i = 0; i < hits.Length; i++)
         {
-            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad")||
+            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad") ||
             hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
             {
                 return i;
@@ -124,6 +143,14 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        /* if (dinero.GetComponent<PlayerController>().money >= 5)
+        {
+            
+        }
+        else
+        {
+            
+        } */
         Debug.Log("Ending drag");
         if (prefabInstance.activeSelf)
         {
