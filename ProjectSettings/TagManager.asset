@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - WayPointEnd
   - Impact Area
+  - TerrainColliderQuad
   layers:
   - Default
   - TransparentFX
