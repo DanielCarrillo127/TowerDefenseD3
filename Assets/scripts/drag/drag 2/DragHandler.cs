@@ -16,7 +16,20 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         AdjustPrefabAlpha();
         prefabInstance.SetActive(false);
     }
+    void OnTriggerEnter(Collision collision)
+    {
+        Debug.Log("collision collision");
+        /* if (collision.gameObject.tag == "Torreta")
+        {
+            Destroy(collision.gameObject);
+            prefabInstance.SetActive(false);
+            dinero.GetComponent<PlayerController>().addMoney(5);
+        } */
+        /* Destroy(collision.gameObject);
+        prefabInstance.SetActive(false);
+        dinero.GetComponent<PlayerController>().addMoney(5); */
 
+    }
     void RemoveScriptsFromPrefab()
     {
         Component[] components = prefabInstance.GetComponentsInChildren<TowerController>();
@@ -47,14 +60,14 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         /*  if (dinero.GetComponent<PlayerController>().money >= 5)
          {
              Debug.Log("Beginning drag");
-             dinero.GetComponent<PlayerController>().substractMoney(5);
+              
          }
          else
          {
 
          } */
         Debug.Log("Beginning drag");
-        dinero.GetComponent<PlayerController>().substractMoney(5);
+
 
     }
 
@@ -72,51 +85,27 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         hits = Physics.RaycastAll(ray, 50f);
-        if (hits != null && hits.Length > 0)
+        if (hits != null && hits.Length > 0 && dinero.GetComponent<PlayerController>().money >= 5)
         {
             int terrainCollderQuadIndex = GetTerrainColliderQuadIndex(hits);
             if (terrainCollderQuadIndex != -1)
             {
                 prefabInstance.transform.position = hits[terrainCollderQuadIndex].point;
                 prefabInstance.SetActive(true);
+
             }
             else
             {
                 prefabInstance.SetActive(false);
             }
         }
-    }
-
-    /* void EnableSlot(GameObject slot) {
-		foreach (GameObject availableSlot in availableSlots) {
-			if (slot.name.Equals(availableSlot.name)) {
-				availableSlot.GetComponent<MeshRenderer> ().enabled = true;
-			} else {
-				availableSlot.GetComponent<MeshRenderer> ().enabled = false;
-			}
-		}
-	}
-
-	void DisableAllSlots() {
-		foreach (GameObject availableSlot in availableSlots) {
-			availableSlot.GetComponent<MeshRenderer> ().enabled = false;
-		}
-	} */
-
-    /* void MaybeShowprefabInstance(RaycastHit[] hits)
-    {
-        int terrainCollderQuadIndex = GetTerrainColliderQuadIndex(hits);
-        if (terrainCollderQuadIndex != -1)
-        {
-            prefabInstance.transform.position = hits[terrainCollderQuadIndex].point;
-            prefabInstance.SetActive(true);
-        }
         else
         {
             prefabInstance.SetActive(false);
         }
     }
- */
+
+    
     int GetTerrainColliderQuadIndex(RaycastHit[] hits)
     {
         for (int i = 0; i < hits.Length; i++)
@@ -126,20 +115,14 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 return i;
             }
+            /* if(hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad")){
+                return -1;
+            } */
         }
 
         return -1;
     }
 
-    // Returns an index on a slot if the mouse is hovering over it.
-    /* int GetSlotIndex(RaycastHit[] hits) {
-		for (int i = 0; i < hits.Length; i++) {
-			if (hits [i].collider.gameObject.name.StartsWith ("Slot")) {
-				return i;
-			}
-		}
-		return -1;
-	} */
 
     public void OnEndDrag(PointerEventData eventData)
     {
@@ -156,23 +139,20 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         {
             // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
             Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
+            prefabInstance.SetActive(true);
+            dinero.GetComponent<PlayerController>().substractMoney(5);
         }
+        else
+        {
+            //dinero.GetComponent<PlayerController>().addMoney(5);
 
-        // Then set it to inactive ready for the next drag!
-        prefabInstance.SetActive(true);
+            prefabInstance.SetActive(false);
+        }
+        prefabInstance.SetActive(false);
     }
 
-    /* Vector3 GetQuadCentre(GameObject quad)
-    {
-        Vector3[] meshVerts = quad.GetComponent<MeshFilter>().mesh.vertices;
-        Vector3[] vertRealWorldPositions = new Vector3[meshVerts.Length];
+    // Then set it to inactive ready for the next drag!
 
-        for (int i = 0; i < meshVerts.Length; i++)
-        {
-            vertRealWorldPositions[i] = quad.transform.TransformPoint(meshVerts[i]);
-        }
-
-        Vector3 midPoint = Vector3.Slerp(vertRealWorldPositions[0], vertRealWorldPositions[1], 0.5f);
-        return midPoint;
-    } */
 }
+
+
