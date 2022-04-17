@@ -41,7 +41,7 @@ public class WaveSpawner : MonoBehaviour
 
     public string timetxt;
     public Text TimeElem;
-    
+
     private void Update()
     {
         currentWave = waves[currentWaveNumber];
@@ -50,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
         GameObject[] totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
         enemElem.text = "Enemies left: " + currentWave.noOfEnemies.ToString();
         if (totalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
-        { 
+        {
             TimeElem.text = "Time left: " + (int)timeRemaining + "s";
             timerIsRunning = true;
             if (timerIsRunning)
@@ -68,7 +68,7 @@ public class WaveSpawner : MonoBehaviour
                     spawnNextWave();
                 }
             }
-            
+
         }
     }
 
@@ -82,7 +82,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if (canSpawn && nextSpawnTime < Time.time)
         {
-            
+
             //spawnea un enemigo aleatorio a un punto aleatorio
             GameObject randomEnemy = currentWave.typeOfEnemies[Random.Range(0, currentWave.typeOfEnemies.Length)];
             Transform randompoint = spawnpoints[Random.Range(0, spawnpoints.Length)];
