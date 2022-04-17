@@ -12,6 +12,7 @@ TagManager:
   - TerrainColliderQuad
   - FxTemporaire
   - Torreta
+  - terreno
   layers:
   - Default
   - TransparentFX

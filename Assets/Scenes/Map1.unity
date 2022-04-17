@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1 &6966454
@@ -269,6 +273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &7265064 stripped
@@ -331,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &18340488 stripped
@@ -392,6 +404,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
       propertyPath: m_Name
       value: tile_riverCorner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
@@ -486,6 +502,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -696,7 +716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39063459}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -10.13, y: -2.37, z: -4.56}
+  m_LocalPosition: {x: -10.13, y: -2.392, z: -4.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -835,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &41116864 stripped
@@ -896,6 +920,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 08d7dc7b6f7b8de45b7a4e9b2e5c365e, type: 3}
       propertyPath: m_Name
       value: tile_wideSplit
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 08d7dc7b6f7b8de45b7a4e9b2e5c365e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d7dc7b6f7b8de45b7a4e9b2e5c365e, type: 3}
@@ -975,6 +1003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &46617626 stripped
@@ -1036,6 +1068,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
       propertyPath: m_Name
       value: tile_riverCorner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
@@ -1344,6 +1380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &55175664 stripped
@@ -1421,6 +1461,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -1500,6 +1544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_crystal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
 --- !u!4 &87311739 stripped
@@ -1578,6 +1626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!1001 &92875706
@@ -1634,6 +1686,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -1871,6 +1927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_crystalLarge (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
 --- !u!1 &104985888 stripped
@@ -1943,6 +2003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
       propertyPath: m_Name
       value: snow_detail_rocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
@@ -2083,6 +2147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &108749735 stripped
@@ -2161,6 +2229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &115285391 stripped
@@ -2230,6 +2302,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
       propertyPath: m_Name
       value: tile_cornerSquare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
@@ -2329,6 +2405,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
       propertyPath: m_Name
       value: detail_rocks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e688899430ea742aee688e139451c9, type: 3}
@@ -2713,6 +2793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_rocks
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e688899430ea742aee688e139451c9, type: 3}
 --- !u!4 &145332165 stripped
@@ -2748,7 +2832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147142132}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -8.99, y: -2.37, z: 5.45}
+  m_LocalPosition: {x: -8.99, y: -2.392, z: 5.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -2887,6 +2971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_detail_rocksLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
 --- !u!1 &149481179 stripped
@@ -2933,7 +3021,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150436089}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.781, y: -2.37, z: 4.47}
+  m_LocalPosition: {x: 1.781, y: -2.392, z: 4.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -3087,6 +3175,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
       propertyPath: m_Name
       value: tile_riverStraight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
@@ -3308,6 +3400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &158887780 stripped
@@ -3385,6 +3481,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -3581,6 +3681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &183704578 stripped
@@ -3761,6 +3865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!4 &196745589 stripped
@@ -3823,6 +3931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &200006599 stripped
@@ -3884,6 +3996,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -3962,6 +4078,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -4151,6 +4271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_dirtHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
 --- !u!4 &216284946 stripped
@@ -4228,6 +4352,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -4352,6 +4480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_sampleF
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f72fcb896e60fd54e9ac3918733891df, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72fcb896e60fd54e9ac3918733891df, type: 3}
 --- !u!1 &231435398 stripped
@@ -4424,6 +4556,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -4503,6 +4639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &234611221 stripped
@@ -4565,6 +4705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &236306932 stripped
@@ -4626,6 +4770,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -4726,6 +4874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverSlopeLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ce61aa9681eed343b51ee6ed1301e9f, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ce61aa9681eed343b51ee6ed1301e9f, type: 3}
 --- !u!4 &248984144 stripped
@@ -4820,6 +4972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerInner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
 --- !u!4 &250802412 stripped
@@ -4913,6 +5069,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
       propertyPath: m_Name
       value: detail_rocks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e688899430ea742aee688e139451c9, type: 3}
@@ -5032,6 +5192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &256583844 stripped
@@ -5126,6 +5290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerOuter
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
 --- !u!4 &272842547 stripped
@@ -5203,6 +5371,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -5377,6 +5549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!1 &288214091 stripped
@@ -5487,6 +5663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &297442867 stripped
@@ -5548,6 +5728,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -5611,6 +5795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
 --- !u!4 &299963425 stripped
@@ -5672,6 +5860,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -5735,6 +5927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverCorner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
 --- !u!4 &300830177 stripped
@@ -5796,6 +5992,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
       propertyPath: m_Name
       value: tile_straightHill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
@@ -5925,6 +6125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &318910014 stripped
@@ -5960,7 +6164,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320732413}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.09, y: -2.37, z: -1.66}
+  m_LocalPosition: {x: -3.09, y: -2.392, z: -1.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -6286,6 +6490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_middleB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e9ea3870e65b474eba894ca9138e986, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e9ea3870e65b474eba894ca9138e986, type: 3}
 --- !u!1001 &336472898
@@ -6342,6 +6550,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -6425,6 +6637,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -6552,6 +6768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &343167208 stripped
@@ -6662,6 +6882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &353982416 stripped
@@ -6723,6 +6947,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -7002,6 +7230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverCorner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
 --- !u!4 &366144214 stripped
@@ -7195,6 +7427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleF (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
 --- !u!1001 &373523913
@@ -7251,6 +7487,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -7314,6 +7554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &374010758 stripped
@@ -7376,6 +7620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &376866651 stripped
@@ -7437,6 +7685,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
       propertyPath: m_Name
       value: tile_rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
@@ -7515,6 +7767,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
       propertyPath: m_Name
       value: tile_straightHill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
@@ -7615,6 +7871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerSquare
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
 --- !u!4 &389737114 stripped
@@ -7677,6 +7937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &391990701 stripped
@@ -7738,6 +8002,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a2bac9df6bcbbfa4a89d892dfb617de5, type: 3}
       propertyPath: m_Name
       value: detail_dirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a2bac9df6bcbbfa4a89d892dfb617de5, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2bac9df6bcbbfa4a89d892dfb617de5, type: 3}
@@ -7817,6 +8085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1001 &402095400
@@ -7873,6 +8145,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
       propertyPath: m_Name
       value: detail_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
@@ -8000,6 +8276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &411383739 stripped
@@ -8061,6 +8341,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8c046bc98115b04fb3e2ab87cb8fea1, type: 3}
       propertyPath: m_Name
       value: towerRound_roofC
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8c046bc98115b04fb3e2ab87cb8fea1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8c046bc98115b04fb3e2ab87cb8fea1, type: 3}
@@ -8277,6 +8561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &421817750 stripped
@@ -8339,6 +8627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &424923503 stripped
@@ -8400,6 +8692,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -8621,6 +8917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &446004440 stripped
@@ -8693,6 +8993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &452865374 stripped
@@ -8754,6 +9058,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -8980,6 +9288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &458831162 stripped
@@ -9041,6 +9353,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
       propertyPath: m_Name
       value: tile_straightHill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
@@ -9120,6 +9436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_rocks
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e688899430ea742aee688e139451c9, type: 3}
 --- !u!1 &465610117 stripped
@@ -9192,6 +9512,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -9270,6 +9594,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
       propertyPath: m_Name
       value: tile_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
@@ -9354,6 +9682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5c9537a23dd216e48b9a39e03845cc41, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9537a23dd216e48b9a39e03845cc41, type: 3}
 --- !u!4 &482348504 stripped
@@ -9431,6 +9763,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
       propertyPath: m_Name
       value: tile_rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
@@ -9510,6 +9846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_dirtHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
 --- !u!4 &491205240 stripped
@@ -9588,6 +9928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_roofA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24f1151ce1e2c614380962355f85911e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24f1151ce1e2c614380962355f85911e, type: 3}
 --- !u!1001 &496135617
@@ -9644,6 +9988,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -9707,6 +10055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
 --- !u!4 &498584850 stripped
@@ -9768,6 +10120,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
       propertyPath: m_Name
       value: tile_straightHill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
@@ -9867,6 +10223,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -10026,6 +10386,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -10349,6 +10713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &545456626 stripped
@@ -10537,6 +10905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &553710403 stripped
@@ -10620,6 +10992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &559754134 stripped
@@ -10698,6 +11074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &564038342 stripped
@@ -10759,6 +11139,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
       propertyPath: m_Name
       value: towerRound_bottomB
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
@@ -10849,6 +11233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleF (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
 --- !u!1001 &570251038
@@ -10905,6 +11293,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
       propertyPath: m_Name
       value: towerRound_bottomB
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
@@ -10984,6 +11376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!4 &575357381 stripped
@@ -11061,6 +11457,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -11171,6 +11571,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
       propertyPath: m_Name
       value: tile_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
@@ -11376,6 +11780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &606759272 stripped
@@ -11437,6 +11845,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
       propertyPath: m_Name
       value: tile_dirtHigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
@@ -11553,6 +11965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &625157077 stripped
@@ -11631,6 +12047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &634102284 stripped
@@ -11693,6 +12113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_endRoundSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13694f92314f44b4bb2e74108c73fe93, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13694f92314f44b4bb2e74108c73fe93, type: 3}
 --- !u!4 &634335433 stripped
@@ -11754,6 +12178,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
       propertyPath: m_Name
       value: tile_riverBridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
@@ -11833,6 +12261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &640536126 stripped
@@ -11910,6 +12342,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
       propertyPath: m_Name
       value: tile_riverSlope
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
@@ -11989,6 +12425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_bottomB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 43875dfb3b0f5de428f9ee824b66ccdf, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43875dfb3b0f5de428f9ee824b66ccdf, type: 3}
 --- !u!1001 &649309916
@@ -12046,6 +12486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_detail_rocksLarge (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
 --- !u!1 &657184450
@@ -12076,7 +12520,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657184450}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.15, y: -2.37, z: 6.4}
+  m_LocalPosition: {x: -1.15, y: -2.392, z: 6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -12329,6 +12773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerSquare
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
 --- !u!4 &678083397 stripped
@@ -12391,6 +12839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_bottomA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 203d085a9cb2d9d45acb4e945785bd0b, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 203d085a9cb2d9d45acb4e945785bd0b, type: 3}
 --- !u!1001 &680576936
@@ -12447,6 +12899,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
       propertyPath: m_Name
       value: tile_cornerInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
@@ -12510,6 +12966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!4 &682208608 stripped
@@ -12571,6 +13031,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -12634,6 +13098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
 --- !u!4 &685215076 stripped
@@ -12696,6 +13164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
 --- !u!1001 &690175467
@@ -12752,6 +13224,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
       propertyPath: m_Name
       value: tile_rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
@@ -13005,6 +13481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &719213935 stripped
@@ -13066,6 +13546,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -13271,6 +13755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &722714926 stripped
@@ -13332,6 +13820,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -13395,6 +13887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
 --- !u!4 &724833207 stripped
@@ -13456,6 +13952,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -13524,6 +14024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_slope
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
 --- !u!4 &732314347 stripped
@@ -13590,6 +14094,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -13996,6 +14504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &751724693 stripped
@@ -14057,6 +14569,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -14120,6 +14636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_crystal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
 --- !u!4 &756582161 stripped
@@ -14181,6 +14701,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -14244,6 +14768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &764220905 stripped
@@ -14305,6 +14833,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
       propertyPath: m_Name
       value: tile_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
@@ -14412,6 +14944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &768869962 stripped
@@ -14495,6 +15031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &772175296 stripped
@@ -14572,6 +15112,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
       propertyPath: m_Name
       value: tile_cornerInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
@@ -14798,6 +15342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!1001 &791389018
@@ -14854,6 +15402,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
       propertyPath: m_Name
       value: snow_detail_rocksLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
@@ -14916,6 +15468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -15048,6 +15604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &802708422 stripped
@@ -15109,6 +15669,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -15412,7 +15976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817940716}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.24, y: -2.37, z: -0.59}
+  m_LocalPosition: {x: -1.24, y: -2.392, z: -0.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -15641,6 +16205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &836438104 stripped
@@ -15719,6 +16287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_topB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 350fe69834afcbe44942a87f3d1a0d9c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 350fe69834afcbe44942a87f3d1a0d9c, type: 3}
 --- !u!1001 &837796971
@@ -15775,6 +16347,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -15838,6 +16414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_crystal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
 --- !u!4 &838236072 stripped
@@ -15875,7 +16455,7 @@ GameObject:
   - component: {fileID: 842999992}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: terreno
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16464,6 +17044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &847571898 stripped
@@ -16526,6 +17110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
 --- !u!1001 &848938798
@@ -16583,6 +17171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_roofA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
 --- !u!1001 &849859484
@@ -16639,6 +17231,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -16707,6 +17303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_wideTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9c5c695b26c4974898b264230404391, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c5c695b26c4974898b264230404391, type: 3}
 --- !u!4 &857064520 stripped
@@ -16768,6 +17368,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5fd4d5f62762a284292dd1feb37ed389, type: 3}
       propertyPath: m_Name
       value: towerSquare_sampleD
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5fd4d5f62762a284292dd1feb37ed389, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd4d5f62762a284292dd1feb37ed389, type: 3}
@@ -16847,6 +17451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &861536437 stripped
@@ -16908,6 +17516,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
       propertyPath: m_Name
       value: tile_cornerRound
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
@@ -16986,6 +17598,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -17078,6 +17694,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
       propertyPath: m_Name
       value: snow_detail_rocksLarge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
@@ -17189,6 +17809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &884532366 stripped
@@ -17267,6 +17891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &887537004 stripped
@@ -17307,7 +17935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896991640}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.851, y: -2.37, z: -0.537}
+  m_LocalPosition: {x: 4.851, y: -2.392, z: -0.537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -17446,6 +18074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!4 &897699833 stripped
@@ -17539,6 +18171,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -17698,6 +18334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &934329536 stripped
@@ -17828,6 +18468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -17977,6 +18621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_dirtHigh (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
 --- !u!4 &957939196 stripped
@@ -18060,6 +18708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_crystalLarge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
 --- !u!1 &963210045 stripped
@@ -18133,6 +18785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_woodStructure_high
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 511a50d687ba38d41803a2b9643e9521, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 511a50d687ba38d41803a2b9643e9521, type: 3}
 --- !u!4 &963867904 stripped
@@ -18189,7 +18845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966057349}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.27, y: -2.37, z: -0.51}
+  m_LocalPosition: {x: -7.27, y: -2.392, z: -0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -18454,6 +19110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &968019540 stripped
@@ -18553,6 +19213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &982317877 stripped
@@ -18609,7 +19273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988594609}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -10.15, y: -2.37, z: -4.53}
+  m_LocalPosition: {x: -10.15, y: -2.392, z: -4.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -18874,6 +19538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &991541081 stripped
@@ -18935,6 +19603,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -19034,6 +19706,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
       propertyPath: m_Name
       value: tile_riverCorner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
@@ -19287,6 +19963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1026423931 stripped
@@ -19349,6 +20029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_sampleC
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b92bea90a2cafde409036783a6cc76f3, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92bea90a2cafde409036783a6cc76f3, type: 3}
 --- !u!1001 &1031531264
@@ -19405,6 +20089,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -19484,6 +20172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &1038475173 stripped
@@ -19545,6 +20237,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
       propertyPath: m_Name
       value: snow_detail_rocks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d08a48c349679c4fbaffd11179bc7dc, type: 3}
@@ -19624,6 +20320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_endSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc5e88d035e6e3d4fb1f1d4a3e345814, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc5e88d035e6e3d4fb1f1d4a3e345814, type: 3}
 --- !u!4 &1049684965 stripped
@@ -19685,6 +20385,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -19926,6 +20630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_roofA
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
 --- !u!1001 &1088976340
@@ -19982,6 +20690,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
       propertyPath: m_Name
       value: tile_cornerInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
@@ -20045,6 +20757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_middleB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
 --- !u!1001 &1097036262
@@ -20101,6 +20817,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 82ee349e657d0074d98854ede095abf2, type: 3}
       propertyPath: m_Name
       value: tile_riverTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82ee349e657d0074d98854ede095abf2, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82ee349e657d0074d98854ede095abf2, type: 3}
@@ -20185,6 +20905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_rocks (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53e688899430ea742aee688e139451c9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53e688899430ea742aee688e139451c9, type: 3}
 --- !u!4 &1099280118 stripped
@@ -20246,6 +20970,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
       propertyPath: m_Name
       value: detail_crystalLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b8bbe39055cec43b92b375d277444d, type: 3}
@@ -20446,6 +21174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1107664296 stripped
@@ -20524,6 +21256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_middleB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
 --- !u!1001 &1110973868
@@ -20581,6 +21317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_dirtLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcf03165ff1fd7944a2132b8adfaccf2, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcf03165ff1fd7944a2132b8adfaccf2, type: 3}
 --- !u!1 &1111183719
@@ -20611,7 +21351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111183719}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.27, y: -2.37, z: -4.53}
+  m_LocalPosition: {x: -7.27, y: -2.392, z: -4.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -20750,6 +21490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_crystal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
 --- !u!4 &1114445140 stripped
@@ -20827,6 +21571,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -21356,6 +22104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1152113325 stripped
@@ -21417,6 +22169,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -21495,6 +22251,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -21748,6 +22508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straightHill (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
 --- !u!4 &1176597631 stripped
@@ -21826,6 +22590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1181257889 stripped
@@ -21888,6 +22656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1183270600 stripped
@@ -21923,7 +22695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187359447}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -11.16, y: -2.37, z: -2.47}
+  m_LocalPosition: {x: -11.16, y: -2.392, z: -2.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -22078,6 +22850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &1191407879 stripped
@@ -22140,6 +22916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed362ba08d0ac6448657b799b3ad1bd, type: 3}
 --- !u!1001 &1193493246
@@ -22196,6 +22976,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -22258,6 +23042,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -22336,6 +23124,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
       propertyPath: m_Name
       value: tile_cornerRound
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
@@ -22557,6 +23349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &1208547082 stripped
@@ -22738,6 +23534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1223650184 stripped
@@ -22799,6 +23599,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -22862,6 +23666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1227130593 stripped
@@ -22923,6 +23731,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -23002,6 +23814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &1230531281 stripped
@@ -23063,6 +23879,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
       propertyPath: m_Name
       value: tile_riverBridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
@@ -23142,6 +23962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_dirtHigh
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
 --- !u!4 &1235860700 stripped
@@ -23203,6 +24027,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
       propertyPath: m_Name
       value: tile_cornerOuter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
@@ -23266,6 +24094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1236725000 stripped
@@ -23327,6 +24159,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -23405,6 +24241,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -23537,6 +24377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1259802162 stripped
@@ -23614,6 +24458,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fcf03165ff1fd7944a2132b8adfaccf2, type: 3}
       propertyPath: m_Name
       value: detail_dirtLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcf03165ff1fd7944a2132b8adfaccf2, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcf03165ff1fd7944a2132b8adfaccf2, type: 3}
@@ -23709,6 +24557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverCorner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
 --- !u!4 &1269380137 stripped
@@ -23771,6 +24623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1272448840 stripped
@@ -23832,6 +24688,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
       propertyPath: m_Name
       value: detail_treeLarge (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
@@ -24001,6 +24861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverCorner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcf3cbb69b7a04498ca7381a935f4b9, type: 3}
 --- !u!4 &1286871119 stripped
@@ -24063,6 +24927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_middleB
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f135e144aa7bc4b88d345e950a9064, type: 3}
 --- !u!1001 &1289231792
@@ -24119,6 +24987,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -24283,6 +25155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1292671997 stripped
@@ -24344,6 +25220,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
       propertyPath: m_Name
       value: towerSquare_sampleF (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
@@ -24664,6 +25544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1298142267 stripped
@@ -24725,6 +25609,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
       propertyPath: m_Name
       value: tile_cornerOuter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
@@ -24788,6 +25676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1301600316 stripped
@@ -24849,6 +25741,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
       propertyPath: m_Name
       value: woodStructure_high
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
@@ -25038,6 +25934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &1311108155 stripped
@@ -25163,6 +26063,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
       propertyPath: m_Name
       value: tile_riverStraight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
@@ -25369,6 +26273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_tree
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
 --- !u!4 &1323312157 stripped
@@ -25462,6 +26370,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
       propertyPath: m_Name
       value: snow_detail_rocksLarge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0016cb4201c261440ba528b34512cc8c, type: 3}
@@ -25668,6 +26580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1351886377 stripped
@@ -25767,6 +26683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1366336384 stripped
@@ -25828,6 +26748,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -25907,6 +26831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1367820885 stripped
@@ -25969,6 +26897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1369884709 stripped
@@ -26030,6 +26962,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
       propertyPath: m_Name
       value: detail_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
@@ -26103,6 +27039,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
       propertyPath: m_Name
       value: tile_slope
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
@@ -26187,6 +27127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_bottomB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0e58616d9a87434eab50a59146e4dda, type: 3}
 --- !u!1 &1390009450 stripped
@@ -26260,6 +27204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1001 &1392083968
@@ -26316,6 +27264,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -26476,6 +27428,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -26688,6 +27644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow_detail_dirtLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 879f4f8868f700f4194a422a57dab535, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879f4f8868f700f4194a422a57dab535, type: 3}
 --- !u!1 &1407611598 stripped
@@ -26761,6 +27721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &1409211547 stripped
@@ -26822,6 +27786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -26885,6 +27853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1001 &1415462037
@@ -26941,6 +27913,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -27003,6 +27979,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
       propertyPath: m_Name
       value: tile_cornerInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
@@ -27151,6 +28131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!1 &1435819212 stripped
@@ -27239,6 +28223,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -27339,6 +28327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1444794559 stripped
@@ -27432,6 +28424,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -27531,6 +28527,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -27639,6 +28639,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
       propertyPath: m_Name
       value: tile_cornerOuter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
@@ -27749,6 +28753,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
       propertyPath: m_Name
       value: tile_riverStraight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
@@ -27945,6 +28953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1001 &1509220493
@@ -28001,6 +29013,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -28064,6 +29080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_split
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5dafd14974bb70c4ca9ebc13669e4abe, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dafd14974bb70c4ca9ebc13669e4abe, type: 3}
 --- !u!4 &1511932067 stripped
@@ -28126,6 +29146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1524625587 stripped
@@ -28187,6 +29211,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 982a295ab1e2ce245bd17a4f1d204030, type: 3}
       propertyPath: m_Name
       value: towerRound_bottomC
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 982a295ab1e2ce245bd17a4f1d204030, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982a295ab1e2ce245bd17a4f1d204030, type: 3}
@@ -28277,6 +29305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1532507598 stripped
@@ -28338,6 +29370,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -28433,6 +29469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1540751985 stripped
@@ -28494,6 +29534,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
       propertyPath: m_Name
       value: tile_rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
@@ -28589,6 +29633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1560744969 stripped
@@ -28650,6 +29698,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
       propertyPath: m_Name
       value: tile_cornerOuter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
@@ -28745,6 +29797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1573328851 stripped
@@ -28812,7 +29868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581824012}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.781, y: -2.37, z: -0.576}
+  m_LocalPosition: {x: 1.781, y: -2.392, z: -0.576}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -29004,6 +30060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7f43d0005725d479bfd2e7031749e6, type: 3}
 --- !u!4 &1592243810 stripped
@@ -29065,6 +30125,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -29160,6 +30224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1607148236 stripped
@@ -29221,6 +30289,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -29490,6 +30562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1622046441 stripped
@@ -29568,6 +30644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1001 &1627731583
@@ -29624,6 +30704,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
       propertyPath: m_Name
       value: tile_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f19a8d63e83994c8ae1fb98f2f829e, type: 3}
@@ -29702,6 +30786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
       propertyPath: m_Name
       value: tile_cornerSquare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
@@ -29797,6 +30885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1642672537 stripped
@@ -29858,6 +30950,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
       propertyPath: m_Name
       value: tile_rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
@@ -29936,6 +31032,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba5202aafbc879f42a8c6fcb9076c388, type: 3}
       propertyPath: m_Name
       value: towerSquare_sampleB
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba5202aafbc879f42a8c6fcb9076c388, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba5202aafbc879f42a8c6fcb9076c388, type: 3}
@@ -30084,6 +31184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerInner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
 --- !u!4 &1681173633 stripped
@@ -30161,6 +31265,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
       propertyPath: m_Name
       value: tile_slope
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
@@ -30383,6 +31491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!1 &1707582026 stripped
@@ -30456,6 +31568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1711650884 stripped
@@ -30517,6 +31633,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
       propertyPath: m_Name
       value: tile_slope
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
@@ -30738,6 +31858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1732954897 stripped
@@ -30915,6 +32039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerOuter
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc15a3e33a89a342b6171174b1398e1, type: 3}
 --- !u!4 &1738869506 stripped
@@ -31014,6 +32142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1763825115 stripped
@@ -31076,6 +32208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerSquare_sampleF
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65612196f3a54984280ea1bd1e89fbce, type: 3}
 --- !u!1001 &1766517481
@@ -31132,6 +32268,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -31194,6 +32334,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
       propertyPath: m_Name
       value: tile_cornerInner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5463a1d5a869a884dae885086227bfe7, type: 3}
@@ -31310,6 +32454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: towerRound_roofA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcc2114be1eb38c498f39cd40f4d87a0, type: 3}
 --- !u!1001 &1793855301
@@ -31366,6 +32514,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -31429,6 +32581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1804639999 stripped
@@ -31490,6 +32646,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -31585,6 +32745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1821241102 stripped
@@ -31646,6 +32810,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -31746,6 +32914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1827299819 stripped
@@ -31829,6 +33001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &1827523757 stripped
@@ -31907,6 +33083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_treeLarge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdeb05da84752b647b22da2cfa073d4d, type: 3}
 --- !u!4 &1837467352 stripped
@@ -31973,6 +33153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_slope (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ec11b8a5487dc642ae4ae1ce8a5ef88, type: 3}
 --- !u!4 &1837613273 stripped
@@ -32035,6 +33219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1838934081 stripped
@@ -32070,7 +33258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840298153}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -6.2, y: -2.37, z: -3.65}
+  m_LocalPosition: {x: -6.2, y: -2.392, z: -3.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -32208,6 +33396,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -32418,7 +33610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853173594}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.81, y: -2.37, z: 0.44}
+  m_LocalPosition: {x: 0.81, y: -2.392, z: 0.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -32573,6 +33765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1854859895 stripped
@@ -32634,6 +33830,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -32760,6 +33960,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -32965,6 +34169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &1876753385 stripped
@@ -33000,7 +34208,7 @@ GameObject:
   - component: {fileID: 1890190909}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: terreno
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33086,6 +34294,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -33181,6 +34393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1902454001 stripped
@@ -33242,6 +34458,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
       propertyPath: m_Name
       value: tile_straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
@@ -33305,6 +34525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1903844072 stripped
@@ -33366,6 +34590,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
       propertyPath: m_Name
       value: tile_treeDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
@@ -33445,6 +34673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &1913151391 stripped
@@ -33506,6 +34738,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
       propertyPath: m_Name
       value: tile_cornerRound
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
@@ -33584,6 +34820,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -33684,6 +34924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: detail_tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
 --- !u!1 &1933848415 stripped
@@ -33757,6 +35001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &1934487014 stripped
@@ -33818,6 +35066,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -33881,6 +35133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &1946720741 stripped
@@ -33943,6 +35199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straightHill (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621b48a5c44b3e942859bf125013e88a, type: 3}
 --- !u!4 &1949337456 stripped
@@ -34004,6 +35264,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
       propertyPath: m_Name
       value: tile_riverSlope
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa393c8431f7a245a02349eaef0f425, type: 3}
@@ -34131,6 +35395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &1962549712 stripped
@@ -34192,6 +35460,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
       propertyPath: m_Name
       value: tile_dirtHigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
@@ -34316,6 +35588,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -34535,6 +35811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &1994395186 stripped
@@ -34596,6 +35876,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -34659,6 +35943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_hill
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
 --- !u!4 &1996534869 stripped
@@ -34721,6 +36009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &2001248871 stripped
@@ -34782,6 +36074,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -34987,6 +36283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &2004270514 stripped
@@ -35070,6 +36370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &2007728556 stripped
@@ -35131,6 +36435,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
       propertyPath: m_Name
       value: tile_cornerSquare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8651680dcc5dd847a7c9ccd3faf7581, type: 3}
@@ -35357,6 +36665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &2019869125 stripped
@@ -35418,6 +36730,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -35496,6 +36812,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -35649,6 +36969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_wideStraight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a48045188b8658141b69733513a22787, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a48045188b8658141b69733513a22787, type: 3}
 --- !u!4 &2033076057 stripped
@@ -35684,7 +37008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033529995}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.82, y: -2.37, z: 2.44}
+  m_LocalPosition: {x: 0.82, y: -2.392, z: 2.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208552477}
@@ -35839,6 +37163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &2048121714 stripped
@@ -35916,6 +37244,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
       propertyPath: m_Name
       value: woodStructure_high
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a3988a7e7413f940a78a929e6af8d33, type: 3}
@@ -36187,6 +37519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_endSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc5e88d035e6e3d4fb1f1d4a3e345814, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc5e88d035e6e3d4fb1f1d4a3e345814, type: 3}
 --- !u!4 &2055824980 stripped
@@ -36264,6 +37600,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
       propertyPath: m_Name
       value: tile_dirtHigh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1da7c6bb5e2f84499e5964d1b841a73, type: 3}
@@ -36374,6 +37714,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
       propertyPath: m_Name
       value: detail_tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d8769760af83094aae893314c461954, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8769760af83094aae893314c461954, type: 3}
@@ -36490,6 +37834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &2080990138 stripped
@@ -36568,6 +37916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_split
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5dafd14974bb70c4ca9ebc13669e4abe, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dafd14974bb70c4ca9ebc13669e4abe, type: 3}
 --- !u!4 &2088302575 stripped
@@ -36630,6 +37982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &2091341552 stripped
@@ -36691,6 +38047,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 179fa66e9f4cebc429bd8605b194c908, type: 3}
@@ -36851,6 +38211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeDouble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dda6210cd14840846a8678764c15ef79, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda6210cd14840846a8678764c15ef79, type: 3}
 --- !u!4 &2097472623 stripped
@@ -36912,6 +38276,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
       propertyPath: m_Name
       value: tile_treeQuad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
@@ -36975,6 +38343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &2105786118 stripped
@@ -37037,6 +38409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerRound
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4838c1711832f744f8ee9a252bf1fd3a, type: 3}
 --- !u!4 &2108583924 stripped
@@ -37098,6 +38474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
       propertyPath: m_Name
       value: tile_hill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e4d66e342e937e4eb62dc8cf03076a7, type: 3}
@@ -37166,6 +38546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_rock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce252781f73d514e87fa9e5f3366482, type: 3}
 --- !u!4 &2118356531 stripped
@@ -37228,6 +38612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &2119460315 stripped
@@ -37289,6 +38677,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
       propertyPath: m_Name
       value: tile_riverBridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcecc55bdff94544c932114ce7091bb7, type: 3}
@@ -37368,6 +38760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_riverFall
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4ade9d3a97566e47a892d0262bfca63, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4ade9d3a97566e47a892d0262bfca63, type: 3}
 --- !u!4 &2121097057 stripped
@@ -37445,6 +38841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac86066b134e58e4ca4f752bed6790b2, type: 3}
       propertyPath: m_Name
       value: towerRound_sampleE
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac86066b134e58e4ca4f752bed6790b2, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac86066b134e58e4ca4f752bed6790b2, type: 3}
@@ -37535,6 +38935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_cornerLarge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5c9537a23dd216e48b9a39e03845cc41, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c9537a23dd216e48b9a39e03845cc41, type: 3}
 --- !u!4 &2129392457 stripped
@@ -37613,6 +39017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6cd357fb980140be1767cbfef2af9, type: 3}
 --- !u!4 &2131837650 stripped
@@ -37674,6 +39082,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
       propertyPath: m_Name
       value: tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
@@ -37832,6 +39244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile_treeQuad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8475de0bd3e2c6549a3879404748df3c, type: 3}
 --- !u!4 &2141744455 stripped
@@ -37989,6 +39405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
+      propertyPath: m_TagString
+      value: terreno
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a0bd8f04727f54d8675a2df2de3679, type: 3}
 --- !u!4 &2146087151 stripped
@@ -38060,6 +39480,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7778019072458538075, guid: 362549026c702d44590c2cdeca210ce5, type: 3}
+      propertyPath: m_TagString
+      value: Torreta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778019072486718070, guid: 362549026c702d44590c2cdeca210ce5, type: 3}
       propertyPath: m_TagString
       value: Torreta
       objectReference: {fileID: 0}

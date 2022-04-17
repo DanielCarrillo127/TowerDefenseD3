@@ -8,6 +8,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     GameObject prefabInstance;
     public GameObject dinero;
 
+    bool torretaExist = false;
     // Use this for initialization
     void Start()
     {
@@ -105,7 +106,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         }
     }
 
-    
+
     int GetTerrainColliderQuadIndex(RaycastHit[] hits)
     {
         for (int i = 0; i < hits.Length; i++)
@@ -113,11 +114,15 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad") ||
             hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
             {
+                Debug.Log("TerrainCOllider click");
                 return i;
             }
-            /* if(hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad")){
+            if (hits[i].collider.gameObject.tag.Equals("Torreta"))
+            {
+                torretaExist = true;
+                Debug.Log("TerrainCOllider torreta");
                 return -1;
-            } */
+            }
         }
 
         return -1;
@@ -135,20 +140,24 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             
         } */
         Debug.Log("Ending drag");
-        if (prefabInstance.activeSelf)
+        if (prefabInstance.activeSelf && !torretaExist)
         {
             // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
             Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
             prefabInstance.SetActive(true);
             dinero.GetComponent<PlayerController>().substractMoney(5);
+            torretaExist = false;
         }
         else
         {
             //dinero.GetComponent<PlayerController>().addMoney(5);
 
             prefabInstance.SetActive(false);
+            torretaExist = false;
         }
         prefabInstance.SetActive(false);
+        Debug.Log("torretaExist = " + torretaExist);
+        torretaExist = false;
     }
 
     // Then set it to inactive ready for the next drag!

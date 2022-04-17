@@ -20,12 +20,11 @@ public class TowerController : MonoBehaviour, IDragHandler
     void OnTriggerEnter(Collision collision)
     {
         Debug.Log("collision collision");
-        /* if (collision.gameObject.tag == "Torreta")
+        if (collision.gameObject.tag == "Torreta")
         {
             Destroy(collision.gameObject);
-            prefabInstance.SetActive(false);
-            dinero.GetComponent<PlayerController>().addMoney(5);
-        } */
+             
+        }
         /* Destroy(collision.gameObject);
         prefabInstance.SetActive(false);
         dinero.GetComponent<PlayerController>().addMoney(5); */
