@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DinElem.text = "Dinero: " + money.ToString();
+        DinElem.text = "Dinero: "+ "$" + money.ToString() ;
     }
 
     public void addMoney(int moneyToAdd)
