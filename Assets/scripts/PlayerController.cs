@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,11 +26,12 @@ public class PlayerController : MonoBehaviour
         VidElem.text = "Vida: " + vida.ToString();
         if (vida == 0)
         {
-            
+            SceneManager.LoadScene("GameOver");
         }
     }
 
-    public void reduceLife(int vidaQuitada){
+    public void reduceLife(int vidaQuitada)
+    {
         vida -= vidaQuitada;
     }
     public void addMoney(int moneyToAdd)

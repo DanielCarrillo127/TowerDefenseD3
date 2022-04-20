@@ -7304,7 +7304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eed3b3bea66527a459b802ac831cd782, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fc58827ec7b347d46a90774d74bdc44b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20360,11 +20360,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - waveName: 1
-    noOfEnemies: 2
+    noOfEnemies: 50
     typeOfEnemies:
     - {fileID: 535324762}
     - {fileID: 138654780}
-    spawnInterval: 0.5
+    spawnInterval: 2
   - waveName: 1
     noOfEnemies: 5
     typeOfEnemies:

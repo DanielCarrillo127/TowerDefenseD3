@@ -45,7 +45,7 @@ public class Enemy_Actor : MonoBehaviour
         else if (other.tag == "WayPointEnd")
         {
             Destroy(gameObject);
-            playerController.GetComponent<PlayerController>().reduceLife(5);
+            playerController.GetComponent<PlayerController>().reduceLife(50);
         }
         else if (other.tag == "Bullet")
         {
