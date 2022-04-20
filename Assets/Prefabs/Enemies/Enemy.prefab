@@ -160,11 +160,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6b3ccdbf1f2464cab693269c99fa98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
   target: {fileID: 0}
-  damagePoint: {fileID: 3004297342801302668}
-  dinero: {fileID: 0}
-  life: 20
+  damagePoint: {fileID: 0}
+  playerController: {fileID: 0}
+  life: 0
 --- !u!1 &3004297344585769520
 GameObject:
   m_ObjectHideFlags: 0
