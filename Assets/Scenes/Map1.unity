@@ -7247,7 +7247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad80843a028eacf4da073fb19f26cec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7778019072458538075, guid: 362549026c702d44590c2cdeca210ce5, type: 3}
+  prefab: {fileID: 7778019072458538075, guid: 970aa60ccfd6a384b97c712bdc9182f8, type: 3}
   dinero: {fileID: 1738820171}
 --- !u!222 &379786566
 CanvasRenderer:
@@ -13123,7 +13123,7 @@ GameObject:
   - component: {fileID: 722694090}
   m_Layer: 0
   m_Name: WP2
-  m_TagString: WayPoint
+  m_TagString: WayPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15493,7 +15493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad80843a028eacf4da073fb19f26cec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7778019072458538075, guid: 362549026c702d44590c2cdeca210ce5, type: 3}
+  prefab: {fileID: 3549110495708304204, guid: 478ab64c143af4a4d948fc0687123a0d, type: 3}
   dinero: {fileID: 1738820171}
 --- !u!222 &835956988
 CanvasRenderer:
@@ -18243,7 +18243,7 @@ GameObject:
   - component: {fileID: 967736847}
   m_Layer: 0
   m_Name: WP
-  m_TagString: WayPoint
+  m_TagString: WayPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19903,7 +19903,7 @@ MonoBehaviour:
   waves:
   - waveName: Wave1
     noOfEnemies: 10
-    spawnInterval: 2.5
+    spawnInterval: 3
     typeOfEnemies:
     - {fileID: 3004297343744559371, guid: 2e497afc0a25e1f41b0a4221f2ae4963, type: 3}
   - waveName: Wave2
@@ -19939,6 +19939,7 @@ MonoBehaviour:
     - {fileID: 118618496}
     - {fileID: 1664558344}
   spawnpoints:
+  - {fileID: 876540838}
   - {fileID: 1978110871}
   timeRemaining: 10
   timerIsRunning: 0
@@ -30047,7 +30048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad80843a028eacf4da073fb19f26cec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7778019072458538075, guid: 362549026c702d44590c2cdeca210ce5, type: 3}
+  prefab: {fileID: 3921906729580266146, guid: ee3fa2653770ef248be142fb1859df1a, type: 3}
   dinero: {fileID: 1738820171}
 --- !u!222 &1657022650
 CanvasRenderer:
