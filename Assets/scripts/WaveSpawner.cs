@@ -50,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
         SpawnWave();
         //tomara lista de los enemigos spawneados
         GameObject[] totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
-        enemElem.text = "Enemies left: " + currentWave.noOfEnemies.ToString();
+        enemElem.text = "  " + currentWave.noOfEnemies.ToString();
         if (totalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
         {
             TimeElem.text = "Time left: " + (int)timeRemaining + "s";
