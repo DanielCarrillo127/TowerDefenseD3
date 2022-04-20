@@ -83,10 +83,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7104149908832233821}
+  - component: {fileID: 7628202901485253606}
   - component: {fileID: 6140896851921905400}
   - component: {fileID: 8276541270802715186}
   - component: {fileID: 7286186268083679249}
-  - component: {fileID: 7628202901485253606}
   m_Layer: 0
   m_Name: Enemy_4
   m_TagString: Enemy
@@ -110,6 +110,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7628202901485253606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7628202901485253607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6b3ccdbf1f2464cab693269c99fa98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.5
+  target: {fileID: 0}
+  damagePoint: {fileID: 7286186267794613077}
+  life: 25
 --- !u!33 &6140896851921905400
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -179,20 +195,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &7628202901485253606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7628202901485253607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c6b3ccdbf1f2464cab693269c99fa98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  target: {fileID: 0}
-  damagePoint: {fileID: 7286186267794613077}
-  dinero: {fileID: 0}
-  life: 25

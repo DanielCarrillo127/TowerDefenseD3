@@ -83,11 +83,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3460938496828039218}
+  - component: {fileID: 4272906236319021707}
   - component: {fileID: 551799447825674135}
   - component: {fileID: 2327399920118995805}
   - component: {fileID: 4272906236319021701}
   - component: {fileID: 4272906236319021706}
-  - component: {fileID: 4272906236319021707}
   m_Layer: 0
   m_Name: Enemy_2
   m_TagString: Enemy
@@ -111,6 +111,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4272906236319021707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4272906236319021704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6b3ccdbf1f2464cab693269c99fa98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  target: {fileID: 0}
+  damagePoint: {fileID: 3887769104666853156}
+  life: 15
 --- !u!33 &551799447825674135
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -193,20 +209,3 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.41795477
   m_Center: {x: 0, y: 0.17, z: 0}
---- !u!114 &4272906236319021707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4272906236319021704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c6b3ccdbf1f2464cab693269c99fa98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  target: {fileID: 0}
-  damagePoint: {fileID: 3887769104666853156}
-  dinero: {fileID: 0}
-  life: 15

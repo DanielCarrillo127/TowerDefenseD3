@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3273436417375019895}
   - component: {fileID: 3921906729580266147}
   m_Layer: 0
-  m_Name: Torreta_tipo_2
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 6123173594274079667}
   bulletSpawn2: {fileID: 6123173594780520768}
   rangeAttackVisual: {fileID: 6123173593871923659}
-  bulletReference: {fileID: 7836476944484477957, guid: e1420f1c6da4a9f4bb4a83aa4b5c0030, type: 3}
+  bulletReference: {fileID: 2583677675717731497, guid: 518316ff314fa1741b4be0952cc3f01f, type: 3}
   fireRate: 0.3
   rangeAttack: 1
 --- !u!1 &6123173593871923659
