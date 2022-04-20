@@ -11,7 +11,7 @@ public class Wave
     //cantidad de enemigos a spawnear
     public int noOfEnemies;
     //intervalo de spawn
-    public float spawnInterval; 
+    public float spawnInterval;
     //tipos de enemigos a spawnear
     public GameObject[] typeOfEnemies;
     //tipos de enemigos a spawnear
@@ -53,7 +53,7 @@ public class WaveSpawner : MonoBehaviour
         enemElem.text = "  " + currentWave.noOfEnemies.ToString();
         if (totalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
         {
-            TimeElem.text = "Time left: " + (int)timeRemaining + "s";
+            TimeElem.text = " " + (int)timeRemaining + " ";
             timerIsRunning = true;
             if (timerIsRunning)
             {
@@ -86,16 +86,18 @@ public class WaveSpawner : MonoBehaviour
         {
             //spawnea un enemigo aleatorio a un punto aleatorio
             int random = Random.Range(0, currentWave.typeOfEnemies.Length);
-            if(random == 0)
+            if (random == 0)
             {
                 GameObject randomEnemy = currentWave.typeOfEnemies[Random.Range(0, currentWave.typeOfEnemies.Length)];
                 Transform randompoint = spawnpoints[0];
                 Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
-            }else{
+            }
+            else
+            {
                 GameObject randomEnemy = currentWave.typeOfEnemies2[Random.Range(0, currentWave.typeOfEnemies2.Length)];
                 Transform randompoint = spawnpoints[1];
                 Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
-            }   
+            }
             currentWave.noOfEnemies--;
             nextSpawnTime = Time.time + currentWave.spawnInterval;
             if (currentWave.noOfEnemies == 0)

@@ -20355,7 +20355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - waveName: Wave1
-    noOfEnemies: 10
+    noOfEnemies: 1
     spawnInterval: 2
     typeOfEnemies:
     - {fileID: 508555608}
@@ -20412,7 +20412,6 @@ MonoBehaviour:
     - {fileID: 382550358}
   spawnpoints:
   - {fileID: 1978110871}
-  - {fileID: 876540838}
   timeRemaining: 10
   timerIsRunning: 0
   enemtxt: 
@@ -39029,10 +39028,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 164
+    m_FontSize: 140
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 164
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -39057,7 +39056,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140983034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000019073483}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.12408703, y: 0.5583914, z: 0.5583914}
   m_Children: []
   m_Father: {fileID: 636041071}
@@ -39065,7 +39064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.577698, y: 2}
+  m_AnchoredPosition: {x: 32.577698, y: 38}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2141744454
