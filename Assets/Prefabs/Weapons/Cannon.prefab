@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5832618942046467135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142626228508432668}
+  - component: {fileID: 6946379266543200796}
+  m_Layer: 0
+  m_Name: Range Attack (1)
+  m_TagString: Torreta
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142626228508432668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5832618942046467135}
+  m_LocalRotation: {x: -0, y: -0.27723607, z: -0, w: 0.9608019}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6267083, y: 1.6267084, z: 1.6267083}
+  m_Children: []
+  m_Father: {fileID: 7778019072458538073}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6946379266543200796
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5832618942046467135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7778019070352978807
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +57,7 @@ GameObject:
   - component: {fileID: 7778019070352978806}
   m_Layer: 0
   m_Name: Range Attack
-  m_TagString: Torreta
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -214,7 +258,7 @@ GameObject:
   - component: {fileID: 557334713573827439}
   - component: {fileID: 8301014377970239360}
   m_Layer: 0
-  m_Name: Torreta
+  m_Name: Cannon
   m_TagString: Torreta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,6 +277,7 @@ Transform:
   m_Children:
   - {fileID: 7778019072486718069}
   - {fileID: 7778019070352978804}
+  - {fileID: 1142626228508432668}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

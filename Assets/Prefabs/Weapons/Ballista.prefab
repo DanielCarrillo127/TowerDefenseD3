@@ -97,6 +97,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0685, y: 0.1, z: 0.21}
   m_Center: {x: 0, y: 0, z: 0.54}
+--- !u!1 &3423105856870357599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8214865391432848017}
+  - component: {fileID: 4296449138106067827}
+  m_Layer: 0
+  m_Name: Range Attack 2 (2)
+  m_TagString: Torreta
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8214865391432848017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423105856870357599}
+  m_LocalRotation: {x: -0, y: -0.042807594, z: -0, w: 0.9990834}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4182482435511781878}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4296449138106067827
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3423105856870357599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.45
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3549110495708304204
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +153,11 @@ GameObject:
   - component: {fileID: 983176738101167699}
   - component: {fileID: 3044439125569729177}
   - component: {fileID: 3549110495708304205}
+  - component: {fileID: 3919075917770658246}
+  - component: {fileID: 1119996080458109988}
   m_Layer: 0
   m_Name: Ballista
-  m_TagString: Untagged
+  m_TagString: Torreta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +176,7 @@ Transform:
   - {fileID: 5315041146698436247}
   - {fileID: 4431982802590983824}
   - {fileID: 4431982803440132027}
+  - {fileID: 8214865391432848017}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 4.907, z: 0}
@@ -202,6 +249,35 @@ MonoBehaviour:
   bulletReference: {fileID: 7528727304343983059, guid: 7131cea793a6965408ffb9d7e0db65a0, type: 3}
   fireRate: 0.5
   rangeAttack: 1.5
+--- !u!65 &3919075917770658246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549110495708304204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22992359, y: 0.15748088, z: 0.22992359}
+  m_Center: {x: 0, y: 0.07874044, z: 0}
+--- !u!54 &1119996080458109988
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549110495708304204}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &4431982802590983821
 GameObject:
   m_ObjectHideFlags: 0
