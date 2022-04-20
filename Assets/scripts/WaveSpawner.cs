@@ -18,6 +18,7 @@ public class Wave
 public class WaveSpawner : MonoBehaviour
 {
     // Start is called before the first frame update
+    
     public Wave[] waves;
     //Puntos de spawn
     public Transform[] spawnpoints;
@@ -88,9 +89,12 @@ public class WaveSpawner : MonoBehaviour
             {
                 GameObject randomEnemy = currentWave.typeOfEnemies[Random.Range(0, currentWave.typeOfEnemies.Length)];
                 Transform randompoint = spawnpoints[Random.Range(0, spawnpoints.Length)];
-                // if(randompoint==spawnpoints[1]){
-                //     randomEnemy.GetComponent<Transform>().
-                // }
+                if(randompoint==spawnpoints[0]){
+                    randomEnemy.GetComponent<Enemy_Actor>().target = GameObject.FindGameObjectWithTag("WayPoint1").GetComponent<Transform>();
+                }else{
+                    randomEnemy.GetComponent<Enemy_Actor>().target = GameObject.FindGameObjectWithTag("WayPoint2").GetComponent<Transform>();
+                    
+                }
                 Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
             }   
             currentWave.noOfEnemies--;

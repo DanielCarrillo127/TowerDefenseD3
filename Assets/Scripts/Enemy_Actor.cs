@@ -13,6 +13,7 @@ public class Enemy_Actor : MonoBehaviour
 
     void Start()
     {
+    
     pc = GameObject.FindGameObjectWithTag("MainCamera");
 
         transform.LookAt(new Vector3(target.position.x, transform.position.y, target.position.z));
@@ -37,7 +38,7 @@ public class Enemy_Actor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "WayPoint")
+        if (other.tag == "WayPoint" || other.tag == "WayPoint1" || other.tag == "WayPoint2")
         {
             int rndPoint = Random.Range(0, other.gameObject.GetComponent<Waypoint>().nextPoint.Length);
             target = other.gameObject.GetComponent<Waypoint>().nextPoint[rndPoint];
