@@ -14,8 +14,6 @@ public class Wave
     public float spawnInterval; 
     //tipos de enemigos a spawnear
     public GameObject[] typeOfEnemies;
-    //tipos de enemigos a spawnear
-    public GameObject[] typeOfEnemies2;
 }
 public class WaveSpawner : MonoBehaviour
 {
@@ -89,11 +87,10 @@ public class WaveSpawner : MonoBehaviour
             if(random == 0)
             {
                 GameObject randomEnemy = currentWave.typeOfEnemies[Random.Range(0, currentWave.typeOfEnemies.Length)];
-                Transform randompoint = spawnpoints[0];
-                Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
-            }else{
-                GameObject randomEnemy = currentWave.typeOfEnemies2[Random.Range(0, currentWave.typeOfEnemies2.Length)];
-                Transform randompoint = spawnpoints[1];
+                Transform randompoint = spawnpoints[Random.Range(0, spawnpoints.Length)];
+                // if(randompoint==spawnpoints[1]){
+                //     randomEnemy.GetComponent<Transform>().
+                // }
                 Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
             }   
             currentWave.noOfEnemies--;

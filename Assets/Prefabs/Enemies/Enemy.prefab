@@ -161,9 +161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  damagePoint: {fileID: 0}
-  playerController: {fileID: 0}
-  life: 0
+  damagePoint: {fileID: 3004297342801302668}
+  life: 10
 --- !u!1 &3004297344585769520
 GameObject:
   m_ObjectHideFlags: 0

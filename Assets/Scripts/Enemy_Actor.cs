@@ -8,12 +8,13 @@ public class Enemy_Actor : MonoBehaviour
     public Transform target;
     public Transform damagePoint;
 
-    public GameObject playerController;
-
     public int life;
+    GameObject pc;
 
     void Start()
     {
+    pc = GameObject.FindGameObjectWithTag("MainCamera");
+
         transform.LookAt(new Vector3(target.position.x, transform.position.y, target.position.z));
 
     }
@@ -30,7 +31,7 @@ public class Enemy_Actor : MonoBehaviour
         {
             Debug.Log("Destruido ");
             Destroy(this.gameObject);
-            playerController.GetComponent<PlayerController>().addMoney(25);
+            pc.GetComponent<PlayerController>().addMoney(25);
         }
     }
 
@@ -45,7 +46,7 @@ public class Enemy_Actor : MonoBehaviour
         else if (other.tag == "WayPointEnd")
         {
             Destroy(gameObject);
-            playerController.GetComponent<PlayerController>().reduceLife(5);
+            pc.GetComponent<PlayerController>().reduceLife(5);
         }
         else if (other.tag == "Bullet")
         {
