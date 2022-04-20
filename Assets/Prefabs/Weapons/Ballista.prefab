@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 3549110495708304205}
   m_Layer: 0
   m_Name: Ballista
-  m_TagString: Torreta
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,12 +196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc477f4fb54fe9248ad87e3262d473df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerHead: {fileID: 5717958140317716010}
+  towerHead: {fileID: 3549110495708304204}
   bulletSpawn: {fileID: 4431982803440132027}
   rangeAttackVisual: {fileID: 4431982802590983821}
   bulletReference: {fileID: 7528727304343983059, guid: 7131cea793a6965408ffb9d7e0db65a0, type: 3}
   fireRate: 0.5
-  rangeAttack: 2
+  rangeAttack: 1.5
 --- !u!1 &4431982802590983821
 GameObject:
   m_ObjectHideFlags: 0
