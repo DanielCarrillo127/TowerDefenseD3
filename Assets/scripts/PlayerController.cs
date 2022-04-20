@@ -50,4 +50,19 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+    public int canPut(int moneyToSubs)
+    {
+        if (money - moneyToSubs < 0)
+        {
+            Debug.Log("not enough money");
+            return -1;
+        }
+        else
+        {
+            Debug.Log(" enough money");
+            return 1;
+        }
+
+    }
 }

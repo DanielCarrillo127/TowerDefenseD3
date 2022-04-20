@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
 
@@ -7,7 +7,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public GameObject prefab;
     GameObject prefabInstance;
     public GameObject dinero;
-
+    int resta;
     bool torretaExist = false;
     // Use this for initialization
     void Start()
@@ -129,11 +129,37 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         Debug.Log("Ending drag");
         if (prefabInstance.activeSelf && !torretaExist)
         {
+            if(prefab.name ==  "Cannon(Clone)" ||prefab.name ==  "Cannon"  ){
+                Debug.Log("Nombre Cannon" );
+                resta = dinero.GetComponent<PlayerController>().canPut(50);
+                Debug.Log("RESTA:" +  resta);
+                dinero.GetComponent<PlayerController>().substractMoney(50);
+            }
+            else if(prefab.name ==  "Turret(Clone)" ||prefab.name ==  "Turret"  ){
+                Debug.Log("Nombre Turret" );
+                resta = dinero.GetComponent<PlayerController>().canPut(150);
+                dinero.GetComponent<PlayerController>().substractMoney(150);
+                Debug.Log("RESTA:" +  resta);
+            }else if(prefab.name ==  "Ballista(Clone)" ||prefab.name ==  "Ballista"  ){
+                Debug.Log("Nombre Ballista" );
+                resta = dinero.GetComponent<PlayerController>().canPut(75);
+                dinero.GetComponent<PlayerController>().substractMoney(75);
+                Debug.Log("RESTA:" +  resta);
+            }
+            if(resta == 1){
             // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
             Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
             prefabInstance.SetActive(true);
-            dinero.GetComponent<PlayerController>().substractMoney(50);
+            /* switch(prefab.name){
+                case GameObject.name("Cannon"):
+                    Debug.Log("Nombre Cannon" );
+            } */
+           
             torretaExist = false;
+            }else{
+
+            }
+           
         }
         else
         {
@@ -150,5 +176,3 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     // Then set it to inactive ready for the next drag!
 
 }
-
-
