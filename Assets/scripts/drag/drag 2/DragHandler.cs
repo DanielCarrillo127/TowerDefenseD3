@@ -86,7 +86,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         hits = Physics.RaycastAll(ray, 50f);
-        if (hits != null && hits.Length > 0 && dinero.GetComponent<PlayerController>().money >= 5)
+        if (hits != null && hits.Length > 0 && dinero.GetComponent<PlayerController>().money >= 25)
         {
             int terrainCollderQuadIndex = GetTerrainColliderQuadIndex(hits);
             if (terrainCollderQuadIndex != -1)
@@ -145,7 +145,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
             Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
             prefabInstance.SetActive(true);
-            dinero.GetComponent<PlayerController>().substractMoney(5);
+            dinero.GetComponent<PlayerController>().substractMoney(50);
             torretaExist = false;
         }
         else

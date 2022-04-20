@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        money = 20;
+        money = 100;
         vida = 100;
     }
 

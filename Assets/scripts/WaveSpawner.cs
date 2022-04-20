@@ -10,10 +10,11 @@ public class Wave
     public string waveName;
     //cantidad de enemigos a spawnear
     public int noOfEnemies;
+
+    //intervalo de spawn
+    public float spawnInterval; 
     //tipos de enemigos a spawnear
     public GameObject[] typeOfEnemies;
-    //intervalo de spawn
-    public float spawnInterval;
 }
 public class WaveSpawner : MonoBehaviour
 {
