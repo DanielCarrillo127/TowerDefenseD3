@@ -22,8 +22,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DinElem.text = "Dinero: " + "$" + money.ToString();
-        VidElem.text = "Vida: " + vida.ToString();
+        DinElem.text = " " + "" + money.ToString();
+        VidElem.text = " " + vida.ToString();
         if (vida == 0)
         {
             SceneManager.LoadScene("GameOver");

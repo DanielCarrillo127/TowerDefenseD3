@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 [System.Serializable]
+
 
 public class Wave
 {
@@ -11,14 +13,14 @@ public class Wave
     //cantidad de enemigos a spawnear
     public int noOfEnemies;
     //intervalo de spawn
-    public float spawnInterval; 
+    public float spawnInterval;
     //tipos de enemigos a spawnear
     public GameObject[] typeOfEnemies;
 }
 public class WaveSpawner : MonoBehaviour
 {
     // Start is called before the first frame update
-    
+
     public Wave[] waves;
     //Puntos de spawn
     public Transform[] spawnpoints;
@@ -49,10 +51,10 @@ public class WaveSpawner : MonoBehaviour
         SpawnWave();
         //tomara lista de los enemigos spawneados
         GameObject[] totalEnemies = GameObject.FindGameObjectsWithTag("Enemy");
-        enemElem.text = "Enemies left: " + currentWave.noOfEnemies.ToString();
+        enemElem.text = " " + currentWave.noOfEnemies.ToString();
         if (totalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
         {
-            TimeElem.text = "Time left: " + (int)timeRemaining + "s";
+            TimeElem.text = " " + (int)timeRemaining + "s";
             timerIsRunning = true;
             if (timerIsRunning)
             {
@@ -71,6 +73,11 @@ public class WaveSpawner : MonoBehaviour
             }
 
         }
+        if (totalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 == waves.Length)
+        {
+            Debug.Log("Victory");
+            SceneManager.LoadScene("Victory");
+        }
     }
 
     void spawnNextWave()
@@ -85,18 +92,21 @@ public class WaveSpawner : MonoBehaviour
         {
             //spawnea un enemigo aleatorio a un punto aleatorio
             int random = Random.Range(0, currentWave.typeOfEnemies.Length);
-            if(random == 0)
+            if (random == 0)
             {
                 GameObject randomEnemy = currentWave.typeOfEnemies[Random.Range(0, currentWave.typeOfEnemies.Length)];
                 Transform randompoint = spawnpoints[Random.Range(0, spawnpoints.Length)];
-                if(randompoint==spawnpoints[0]){
+                if (randompoint == spawnpoints[0])
+                {
                     randomEnemy.GetComponent<Enemy_Actor>().target = GameObject.FindGameObjectWithTag("WayPoint1").GetComponent<Transform>();
-                }else{
+                }
+                else
+                {
                     randomEnemy.GetComponent<Enemy_Actor>().target = GameObject.FindGameObjectWithTag("WayPoint2").GetComponent<Transform>();
-                    
+
                 }
                 Instantiate(randomEnemy, randompoint.position, Quaternion.identity);
-            }   
+            }
             currentWave.noOfEnemies--;
             nextSpawnTime = Time.time + currentWave.spawnInterval;
             if (currentWave.noOfEnemies == 0)
