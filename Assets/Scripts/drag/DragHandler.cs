@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
-
+using UnityEngine.UI;
 public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public GameObject prefab;
@@ -9,6 +9,10 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public GameObject dinero;
     int resta;
     bool torretaExist = false;
+    
+    Image image;
+
+    bool Located;
     // Use this for initialization
     void Start()
     {
@@ -69,7 +73,9 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         {
 
         } */
-        
+
+        // image = GameObject.Find("BallistaPanel").GetComponent<Image>();
+        // image.material.color = new Color(192,192,192);
         Debug.Log("Dragging");
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -119,6 +125,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
+
         /* if (dinero.GetComponent<PlayerController>().money >= 5)
         {
             
@@ -135,6 +142,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 resta = dinero.GetComponent<PlayerController>().canPut(50);
                 Debug.Log("RESTA:" +  resta);
                 dinero.GetComponent<PlayerController>().substractMoney(50);
+
             }
             else if(prefab.name ==  "Turret(Clone)" ||prefab.name ==  "Turret"  ){
                 Debug.Log("Nombre Turret" );
@@ -150,6 +158,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if(resta == 1){
             // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
             Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
+
             prefabInstance.SetActive(true);
             /* switch(prefab.name){
                 case GameObject.name("Cannon"):
