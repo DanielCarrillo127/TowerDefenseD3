@@ -17,14 +17,34 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         AdjustPrefabAlpha();
         prefabInstance.SetActive(false);
     }
- 
+
     void RemoveScriptsFromPrefab()
     {
-        Component[] components = prefabInstance.GetComponentsInChildren<TowerController>();
-        foreach (Component component in components)
+        if (prefab.name == "Cannon(Clone)" || prefab.name == "Cannon")
         {
-            Destroy(component);
+            Component[] components = prefabInstance.GetComponentsInChildren<TowerController>();
+            foreach (Component component in components)
+            {
+                Destroy(component);
+            }
         }
+        else if (prefab.name == "Turret(Clone)" || prefab.name == "Turret")
+        {
+            Component[] components = prefabInstance.GetComponentsInChildren<TowerController2>();
+            foreach (Component component in components)
+            {
+                Destroy(component);
+            }
+        }
+        else if (prefab.name == "Ballista(Clone)" || prefab.name == "Ballista")
+        {
+            Component[] components = prefabInstance.GetComponentsInChildren<TowerController3>();
+            foreach (Component component in components)
+            {
+                Destroy(component);
+            }
+        }
+
     }
 
     void AdjustPrefabAlpha()
@@ -69,7 +89,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         {
 
         } */
-        
+
         Debug.Log("Dragging");
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -130,37 +150,44 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         Debug.Log("Ending drag");
         if (prefabInstance.activeSelf && !torretaExist)
         {
-            if(prefab.name ==  "Cannon(Clone)" ||prefab.name ==  "Cannon"  ){
-                Debug.Log("Nombre Cannon" );
+            if (prefab.name == "Cannon(Clone)" || prefab.name == "Cannon")
+            {
+                Debug.Log("Nombre Cannon");
                 resta = dinero.GetComponent<PlayerController>().canPut(50);
-                Debug.Log("RESTA:" +  resta);
+                Debug.Log("RESTA:" + resta);
                 dinero.GetComponent<PlayerController>().substractMoney(50);
             }
-            else if(prefab.name ==  "Turret(Clone)" ||prefab.name ==  "Turret"  ){
-                Debug.Log("Nombre Turret" );
+            else if (prefab.name == "Turret(Clone)" || prefab.name == "Turret")
+            {
+                Debug.Log("Nombre Turret");
                 resta = dinero.GetComponent<PlayerController>().canPut(150);
                 dinero.GetComponent<PlayerController>().substractMoney(150);
-                Debug.Log("RESTA:" +  resta);
-            }else if(prefab.name ==  "Ballista(Clone)" ||prefab.name ==  "Ballista"  ){
-                Debug.Log("Nombre Ballista" );
+                Debug.Log("RESTA:" + resta);
+            }
+            else if (prefab.name == "Ballista(Clone)" || prefab.name == "Ballista")
+            {
+                Debug.Log("Nombre Ballista");
                 resta = dinero.GetComponent<PlayerController>().canPut(75);
                 dinero.GetComponent<PlayerController>().substractMoney(75);
-                Debug.Log("RESTA:" +  resta);
+                Debug.Log("RESTA:" + resta);
             }
-            if(resta == 1){
-            // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
-            Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
-            prefabInstance.SetActive(true);
-            /* switch(prefab.name){
-                case GameObject.name("Cannon"):
-                    Debug.Log("Nombre Cannon" );
-            } */
-           
-            torretaExist = false;
-            }else{
+            if (resta == 1)
+            {
+                // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
+                Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
+                prefabInstance.SetActive(true);
+                /* switch(prefab.name){
+                    case GameObject.name("Cannon"):
+                        Debug.Log("Nombre Cannon" );
+                } */
+
+                torretaExist = false;
+            }
+            else
+            {
 
             }
-           
+
         }
         else
         {
