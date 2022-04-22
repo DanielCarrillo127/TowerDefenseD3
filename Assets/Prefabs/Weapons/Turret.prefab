@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8517710439299655166}
   - component: {fileID: 5409213368261221862}
+  - component: {fileID: 1774873549695846524}
   m_Layer: 0
   m_Name: Range Attack 2 (1)
   m_TagString: Torreta
@@ -42,8 +43,22 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.4
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!64 &1774873549695846524
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3390605082323680366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &3921906729580266146
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,7 +72,7 @@ GameObject:
   - component: {fileID: 3273436417375019895}
   - component: {fileID: 3921906729580266147}
   - component: {fileID: 540841035209306629}
-  - component: {fileID: 8375459962178609913}
+  - component: {fileID: -8854359552298157527}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Torreta
@@ -167,22 +182,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22992359, y: 0.20999998, z: 0.30999994}
   m_Center: {x: 0, y: 0.10499999, z: 0.024999999}
---- !u!54 &8375459962178609913
-Rigidbody:
+--- !u!64 &-8854359552298157527
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3921906729580266146}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1958106858659839339, guid: 1375fed51f10c4f48891abe7b92e70c4, type: 3}
 --- !u!1 &6123173593871923659
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +207,7 @@ GameObject:
   - component: {fileID: 6123173593871923662}
   - component: {fileID: 6123173593871923657}
   - component: {fileID: 6123173593871923656}
+  - component: {fileID: 5515830821679465727}
   m_Layer: 0
   m_Name: Range Attack 2
   m_TagString: Untagged
@@ -240,6 +254,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446bcd1d7b75a4045b8826ec594fe9be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &5515830821679465727
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123173593871923659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &6123173594274079666
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public GameObject dinero;
     int resta;
     bool torretaExist = false;
+    int canit = 0;
     // Use this for initialization
     void Start()
     {
@@ -90,7 +91,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
         } */
 
-        Debug.Log("Dragging");
+        //Debug.Log("Dragging");
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         hits = Physics.RaycastAll(ray, 50f);
@@ -119,18 +120,27 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         for (int i = 0; i < hits.Length; i++)
         {
-            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad") ||
-            hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
-            {
-                Debug.Log("TerrainCOllider click");
-                return i;
-            }
             if (hits[i].collider.gameObject.tag.Equals("Torreta"))
             {
                 torretaExist = true;
-                Debug.Log("TerrainCOllider torreta");
-                return -1;
+                canit = 1;
+                Debug.Log("Torreta Torreta");
             }
+            if (
+            hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
+            {
+                torretaExist = false;
+                Debug.Log("TerrainCOllider click");
+                return i;
+            }
+
+            if (hits[i].collider.gameObject.tag.Equals("tilemap"))
+            {
+                torretaExist = true;
+                Debug.Log("TerrainCOllider tilemap");
+                return i;
+            }
+            return i;
         }
 
         return -1;
