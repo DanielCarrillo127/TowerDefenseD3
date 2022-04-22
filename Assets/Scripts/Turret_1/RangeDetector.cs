@@ -7,6 +7,9 @@ public class RangeDetector : MonoBehaviour{
     float timeNextBullet;
     Transform target;
 
+    public Animator animator;
+
+
     void OnTriggerStay (Collider obj){
         switch (obj.tag){
             case "Enemy":
