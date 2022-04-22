@@ -71,7 +71,7 @@ public class WaveSpawner : MonoBehaviour
                 {
                     Debug.Log("Time has run out the wave is coming!");
                     Color c = new Color32(144,2, 255, 100);
-                    StartCoroutine(sendNotification("Time has run out the wave is coming!",c , 1));
+                    StartCoroutine(sendNotification("Time has run out the wave is coming!",c , 3));
                     timeRemaining = 10;
                     timerIsRunning = false;
                     spawnNextWave();
