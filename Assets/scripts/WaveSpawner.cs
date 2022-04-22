@@ -24,9 +24,13 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] waves;
     //Puntos de spawn
     public Transform[] spawnpoints;
+    
+    public Text notificationText;
+
     //dicen en que oleada estamos
     private Wave currentWave;
     private int currentWaveNumber;
+
 
     //tiempo entre spawns de enemigos
     private float nextSpawnTime;
@@ -65,7 +69,9 @@ public class WaveSpawner : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Time has run out!");
+                    Debug.Log("Time has run out the wave is coming!");
+                    Color c = new Color32(144,2, 255, 100);
+                    StartCoroutine(sendNotification("Time has run out the wave is coming!",c , 1));
                     timeRemaining = 10;
                     timerIsRunning = false;
                     spawnNextWave();
@@ -115,6 +121,14 @@ public class WaveSpawner : MonoBehaviour
             }
         }
 
+    }
+
+    IEnumerator sendNotification(string text,Color colors , int time)
+    {
+        notificationText.color = colors;
+        notificationText.text = text;
+        yield return new WaitForSeconds(time);
+        notificationText.text = "";
     }
 
 }

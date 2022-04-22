@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     public string dintxt;
     public Text DinElem;
     public Text VidElem;
+
+    public Text notificationText;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +36,10 @@ public class PlayerController : MonoBehaviour
 
     public void reduceLife(int vidaQuitada)
     {
+        if(vida<=50)
+        {
+            StartCoroutine(sendNotification("BE CAREFUL, YOUR LIFE IS LOW", Color.red,1));
+        }
         vida -= vidaQuitada;
     }
     public void addMoney(int moneyToAdd)
@@ -43,6 +51,7 @@ public class PlayerController : MonoBehaviour
         if (money - moneyToSubstract < 0)
         {
             Debug.Log("not enough money");
+            StartCoroutine(sendNotification("NOT ENOUGH CASH, Hint: kill enemies to earn money ",Color.red, 1));
         }
         else
         {
@@ -56,6 +65,7 @@ public class PlayerController : MonoBehaviour
         if (money - moneyToSubs < 0)
         {
             Debug.Log("not enough money");
+            StartCoroutine(sendNotification("NOT ENOUGH CASH, Hint: kill enemies to earn money",Color.red , 1));
             return -1;
         }
         else
@@ -65,4 +75,13 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+    IEnumerator sendNotification(string text,Color colors , int time)
+    {
+        notificationText.color = colors;
+        notificationText.text = text;
+        yield return new WaitForSeconds(time);
+        notificationText.text = "";
+    }
+
 }
