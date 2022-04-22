@@ -17,12 +17,16 @@ public class Bullet_Controller2 : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision other) {
-        switch(other.collider.tag){
-            case "Impact Area":
-                Destroy(this.gameObject);
-            break;
+        if (other.collider.tag=="Impact Area"){
+             Destroy(this.gameObject);
+        }else{
+            Invoke("DestroyElement", 1);
         }
         
+    }
+    void DestroyElement(){
+             Destroy(this.gameObject);
+
     }
         
     

@@ -166,7 +166,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 6123173594274079667}
   bulletSpawn2: {fileID: 6123173594780520768}
   rangeAttackVisual: {fileID: 6123173593871923659}
-  bulletReference: {fileID: 2583677675717731497, guid: 518316ff314fa1741b4be0952cc3f01f, type: 3}
+  bulletReference: {fileID: 7836476944484477957, guid: 5deeeb7b5e262574282320b2b8e63584, type: 3}
   fireRate: 0.3
   rangeAttack: 1
 --- !u!65 &540841035209306629

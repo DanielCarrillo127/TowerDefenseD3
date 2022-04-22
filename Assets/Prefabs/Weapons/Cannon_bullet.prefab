@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2583677675717731501}
   - component: {fileID: 2583677675717731502}
   m_Layer: 0
-  m_Name: Bullet Controller
+  m_Name: Cannon_bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &2583677676030568733
 GameObject:
