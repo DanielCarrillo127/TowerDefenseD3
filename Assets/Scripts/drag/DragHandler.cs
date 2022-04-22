@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
+
 public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public GameObject prefab;
@@ -9,10 +9,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public GameObject dinero;
     int resta;
     bool torretaExist = false;
-    
-    Image image;
-
-    bool Located;
+    int canit = 0;
     // Use this for initialization
     void Start()
     {
@@ -94,9 +91,7 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
         } */
 
-        // image = GameObject.Find("BallistaPanel").GetComponent<Image>();
-        // image.material.color = new Color(192,192,192);
-        Debug.Log("Dragging");
+        //Debug.Log("Dragging");
         RaycastHit[] hits;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         hits = Physics.RaycastAll(ray, 50f);
@@ -125,18 +120,27 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         for (int i = 0; i < hits.Length; i++)
         {
-            if (hits[i].collider.gameObject.name.Equals("TerrainColliderQuad") ||
-            hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
-            {
-                Debug.Log("TerrainCOllider click");
-                return i;
-            }
             if (hits[i].collider.gameObject.tag.Equals("Torreta"))
             {
                 torretaExist = true;
-                Debug.Log("TerrainCOllider torreta");
-                return -1;
+                canit = 1;
+                Debug.Log("Torreta Torreta");
             }
+            if (
+            hits[i].collider.gameObject.tag.Equals("TerrainColliderQuad"))
+            {
+                torretaExist = false;
+                Debug.Log("TerrainCOllider click");
+                return i;
+            }
+
+            if (hits[i].collider.gameObject.tag.Equals("tilemap"))
+            {
+                torretaExist = true;
+                Debug.Log("TerrainCOllider tilemap");
+                return i;
+            }
+            return i;
         }
 
         return -1;
@@ -145,7 +149,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
-
         /* if (dinero.GetComponent<PlayerController>().money >= 5)
         {
             
@@ -163,7 +166,6 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 resta = dinero.GetComponent<PlayerController>().canPut(50);
                 Debug.Log("RESTA:" + resta);
                 dinero.GetComponent<PlayerController>().substractMoney(50);
-
             }
             else if (prefab.name == "Turret(Clone)" || prefab.name == "Turret")
             {
@@ -179,18 +181,20 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 dinero.GetComponent<PlayerController>().substractMoney(75);
                 Debug.Log("RESTA:" + resta);
             }
-            if(resta == 1){
-            // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
-            Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
+            if (resta == 1)
+            {
+                // MeshFilter mf = activeSlot.GetComponent<MeshFilter> ();
+                Instantiate(prefab, prefabInstance.transform.position, Quaternion.identity);
+                prefabInstance.SetActive(true);
+                /* switch(prefab.name){
+                    case GameObject.name("Cannon"):
+                        Debug.Log("Nombre Cannon" );
+                } */
 
-            prefabInstance.SetActive(true);
-            /* switch(prefab.name){
-                case GameObject.name("Cannon"):
-                    Debug.Log("Nombre Cannon" );
-            } */
-           
-            torretaExist = false;
-            }else{
+                torretaExist = false;
+            }
+            else
+            {
 
             }
 
